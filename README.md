@@ -34,7 +34,7 @@ The self-developed program for labeling the images along all the codes designed 
 
 The detaols of the Pesteh-Set is listed in the nex table.
 
-  | Open-Mouth Pistachios | Closed-Mouth Pistachios | ALL the Pistachios
+Data  | Open-Mouth Pistachios | Closed-Mouth Pistachios | ALL the Pistachios
 ------------ | ------------- | ------------- | -------------
 Video1 | 50 | 20 | 70
 Video2 | 60 | 20 | 80
