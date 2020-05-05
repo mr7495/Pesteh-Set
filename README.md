@@ -47,7 +47,7 @@ All the 423 Labeld Images | 1993 | 1934 | 3927
 
 Clone this repository by ```!git clone https://github.com/mr7495/Pesteh-Set.git```
 
-You can use ```!python frame_generator.py --video_path="Path to the Video" --save_folder="Path to write the frames" --height="height of the frame" --width="width of the frame"
+You can use ```!python frame_generator.py --video_path="Path to the Video" --save_folder="Path to write the frames" --height="height of the frame" --width="width of the frame"```
 
 
 **The Pesteh-Set images is available in the pesteh_set_images folder.**
