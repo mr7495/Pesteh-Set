@@ -45,6 +45,8 @@ Video6 | 39 | 52 | 91
 All of the Videos | 409 | 152 | 561
 All the 423 Labeld Images | 1993 | 1934 | 3927
 
-Clone this repositpry by ```!git clone https://github.com/mr7495/Pesteh-Set.git```
+**The Pesteh-Set images is available in the pesteh_set_images folder.
+**The Videos of Pesteh-Set is shared on https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing **
+**In this reposotory you can use the frame_generator.py to extract the frames of the videos.**
+**You can also use Label_maker to label you images and make more data.**
 
-You can use ``` !python frame_generator.py --video_path='The path to the video' --save_folder='The folder to save the generated frames' --size='size of the frames'``` to extract the frames of the videos.
