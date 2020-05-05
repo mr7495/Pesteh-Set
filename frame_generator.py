@@ -1,3 +1,9 @@
+#Developed by Mohammad Rahimzadeh
+#https://github.com/mr7495
+#By using this code, you can extract the frames of the videos
+# You have to select the video path and the path to where frames are saved.
+#You can choose the size of the generated frames.
+
 import cv2
 import os
 import argparse

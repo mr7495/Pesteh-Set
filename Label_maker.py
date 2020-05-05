@@ -1,6 +1,24 @@
+#Developed by Mohammad Rahimzadeh
+#https://github.com/mr7495
+
+#This program helps you label the objects in the images
+#In this case, we have only two classes, so run the program and set the box around the object, then press enter
+# after that, press 0 or 1. 0 is referred to class 1, and 1 is referred to class2. 
+#If you press any other keys after pressing enter, the selected box would be rejected.
+#If you want to go to the next image, select a random box, press enter, then press n.
+#If you want to quit, select a random box, press enter, then press e.
+#The labels of each image would be saved to the inserted save_path in a CSV file.
+
+
 import os
 import cv2
 import csv
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--images_path", help="The path to the images")
+parser.add_argument("--save_path", help="The path to save the annotation csv files")
+
 
 
 def write_on_csv(image_name,image_data,csv_path):
@@ -11,6 +29,7 @@ def write_on_csv(image_name,image_data,csv_path):
             write_data=[image_name]
             write_data.extend([data[1][0],data[1][1],data[1][0]+data[1][2],data[1][1]+data[1][3],data[0]])
             csvwriter.writerow(write_data)  
+            print(write_data)
         csv_file.close()
         
         
@@ -50,3 +69,13 @@ def make_label(imgs_path,csv_path):
                 break
     
     cv2.destroyAllWindows()
+    
+args = vars(parser.parse_args())
+if args["images_path"] is  None:
+    raise ValueError('The images_path is empty')
+elif args["save_path"] is  None:
+    raise ValueError('The save_path is empty')
+else:
+    make_label(args["images_path"],args["save_path"])
+        
+        
