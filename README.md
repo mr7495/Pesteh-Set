@@ -49,15 +49,26 @@ Clone this repository by ```!git clone https://github.com/mr7495/Pesteh-Set.git`
 
 You can use ```!python frame_generator.py --video_path="Path to the Video" --save_folder="Path to write the frames" --height="height of the frame" --width="width of the frame"``` to extract the frames of the videos.
 
-You can extract more frames from the videos in our dataset and use the Label_Maker module to label more images and increase the images of the dataset.
+You can extract more frames from the videos in our dataset and use the Label_maker module to label more images and increase the number of images in the dataset.
 
+# Label Maker
 
+Label Maker has been developed for making the gound truth of the images. In this case, as we have two classes of pistachios the label maker is set to label two classes of objects. 
+
+The output of this program is a set of csv files that each belongs to an image. One example of a row in a generated csv file is :
+```image_name, x1, y1, x2, y2, class_num``` 
+This format is the foram that RetinaNet accepts as the csv annotations.
+
+This program can be ran by : ```!python Label_maker.py --images_path="path to the images folder" --save_path="The path to save csv files"```
+
+For each image draw the box around the object and press eneter, then press 0 or 1. 0 is referred to class 1, and 1 is referred to class2. 
+If you press any other keys after pressing enter, the selected box would be rejected.
+If you want to go to the next image, select a random box, press enter, then press n.
+if you want to quit, select a random box, press enter, then press e
 
 **The Pesteh-Set images is available in the pesteh_set_images folder.**
 
 **The Videos of Pesteh-Set is shared on https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing**
 
-**In this reposotory you can use the frame_generator.py to extract the frames of the videos.**
 
-**You can also use Label_maker to label you images and make more data.**
 
