@@ -45,4 +45,6 @@ Video6 | 39 | 52 | 91
 All of the Videos | 409 | 152 | 561
 All the 423 Labeld Images | 1993 | 1934 | 3927
 
+Clone this repositpry by ```!git clone https://github.com/mr7495/Pesteh-Set.git```
+
 You can use ``` !python frame_generator.py --video_path='The path to the video' --save_folder='The folder to save the generated frames' --size='size of the frames'``` to extract the frames of the videos.
