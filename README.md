@@ -45,7 +45,7 @@ Video6 | 39 | 52 | 91
 All of the Videos | 409 | 152 | 561
 All the 423 Labeld Images | 1993 | 1934 | 3927
 
-**The Pesteh-Set images is available in the pesteh_set_images folder.
+**The Pesteh-Set images is available in the pesteh_set_images folder.**
 **The Videos of Pesteh-Set is shared on https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing**
 **In this reposotory you can use the frame_generator.py to extract the frames of the videos.**
 **You can also use Label_maker to label you images and make more data.**
