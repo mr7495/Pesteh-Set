@@ -69,7 +69,7 @@ if you want to quit, select a random box, press enter, then press e
 
 The visualization.py presents the code for plotting the annotation on the images. Run as:
 
-!python visualization.py --annotation_path="Path to annotation.csv" --images_path="Path to the dataset images" --save_path="Path to write the plotted images" 
+```!python visualization.py --annotation_path="Path to annotation.csv" --images_path="Path to the dataset images" --save_path="Path to write the plotted images" ```
 
 **Ground Truth of Pesteh-Set is available in the annotation.csv file.**
 **The Pesteh-Set images is available in the pesteh_set_images folder.**
