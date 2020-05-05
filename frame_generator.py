@@ -1,5 +1,12 @@
 import cv2
 import os
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--video_path", help="The path to the video")
+parser.add_argument("--save_folder", help="The path to write the frames")
+parser.add_argument("--height", default=1070, help="The height of the generated frames")
+parser.add_argument("--width", default=600, help="The width of the generated frames")
+
 def frame_generator(video_path,save_folder,size=(1070,600)):
     try:
         os.mkdir(save_folder)
@@ -16,3 +23,22 @@ def frame_generator(video_path,save_folder,size=(1070,600)):
         else:
             break
     cap.release()
+  
+
+args = vars(parser.parse_args())
+if args["save_folder"] is  None:
+    raise ValueError('The save_folder is empty')
+elif args["video_path"] is  None:
+    raise ValueError('The video_path is empty')
+try:
+    int(args["height"])
+except:
+    raise ValueError('height is not valid')
+try:
+    int(args["width"])
+except:
+    raise ValueError('width is not valid')
+else:
+    frame_generator(args["video_path"],args["save_folder"],size=(int(args["height"]),int(args["width"])))
+        
+        
