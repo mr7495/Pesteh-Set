@@ -44,3 +44,5 @@ Video5 | 100 | 20 | 120
 Video6 | 39 | 52 | 91
 All of the Videos | 409 | 152 | 561
 All the 423 Labeld Images | 1993 | 1934 | 3927
+
+You can use ``` !python frame_generator.py --video_path='The path to the video' --save_folder='The folder to save the generated frames' --size='size of the frames'``` to extract the frames of the videos.
