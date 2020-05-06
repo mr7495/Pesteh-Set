@@ -21,7 +21,7 @@ The [videos of the dataset](https://drive.google.com/drive/folders/1ojq1maRM82o3
 </p>
 
 
-Pesteh-Set is made of two parts. The first part includes [423 images with ground truth](pesteh_set_image). We sorted the pistachios into two classes: Open-mouth and closed-mouth. The ground truth of the images is a [CSV file](annotation.csv) that consists of the bounding boxes of the two classes of pistachios in the images.
+Pesteh-Set is made of two parts. The first part includes [423 images with ground truth](pesteh_set_images). We sorted the pistachios into two classes: Open-mouth and closed-mouth. The ground truth of the images is a [CSV file](annotation.csv) that consists of the bounding boxes of the two classes of pistachios in the images.
 There are between 1 to 27 pistachios in each image, and 3927 pistachios totally. The second part includes 6 videos with a total length of 167 seconds and 561 moving pistachios.
 
 We have selected some frames of the videos and labeled them with a [self-developed program](Label_maker.py) using OpenCV library on python language. The images of the dataset were resized to 1070 × 600 pixels to save computing costs.
