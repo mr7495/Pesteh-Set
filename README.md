@@ -30,7 +30,7 @@ Some of the images of this dataset are presented in the figure below:
 <img src="/images/raw1.jpg" width="30%"> <img src="/images/raw2.jpg" width="30%">
 <img src="/images/raw3.jpg" width="30%">  <img src="/images/raw4.jpg" width="30%">
 
-The self-developed program for labeling the images along all the codes designed for preparing and visualzing the data is avaialbe on this repository. We hope that researchers could use them to make the Pistachio-Dataset larger.
+The [self-developed program](Label_maker.py) for labeling the images along all the codes designed for preparing and visualzing the data is avaialbe on this repository. We hope that researchers could use them to make the Pistachio-Dataset larger.
 
 The details of the Pesteh-Set are listed in the next table.
 
@@ -53,7 +53,7 @@ You can extract more frames from the videos in our dataset and use the Label_mak
 
 # Label Maker
 
-Label Maker has been developed for making the ground truth of the images. In this case, as we have two classes of pistachios, the label maker is set to label two classes of objects. 
+[Label Maker](Label_maker.py) has been developed for making the ground truth of the images. In this case, as we have two classes of pistachios, the label maker is set to label two classes of objects. 
 
 The output of this program is a set of CSV files that each belongs to an image. One example of a row in a generated CSV file is :
 ```image_name, x1, y1, x2, y2, class_num``` 
@@ -69,7 +69,7 @@ If you want to go to the next image, select a random box, press enter, then pres
 if you want to quit, select a random box, press enter, then press e
 
 
-The visualization.py presents the code for plotting the annotation on the images. Run as:
+The [visualization.py](visualization.py) presents the code for plotting the annotation on the images. Run as:
 
 ```!python visualization.py --annotation_path="Path to annotation.csv" --images_path="Path to the dataset images" --save_path="Path to write the plotted images" ```
 
