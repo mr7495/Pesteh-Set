@@ -73,7 +73,7 @@ The visualization.py presents the code for plotting the annotation on the images
 
 ```!python visualization.py --annotation_path="Path to annotation.csv" --images_path="Path to the dataset images" --save_path="Path to write the plotted images" ```
 
-**Ground Truth of Pesteh-Set is available in the [annotation.csv](annotation.csv file).**
+**Ground Truth of Pesteh-Set is available in the [annotation.csv](annotation.csv).**
 
 **The Pesteh-Set images are available in the [pesteh_set_images folder](pesteh_set_images).**
 
