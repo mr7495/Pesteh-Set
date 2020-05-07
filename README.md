@@ -80,4 +80,5 @@ The [visualization.py](visualization.py) presents the code for plotting the anno
 **The Videos of Pesteh-Set is shared on https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing**
 
 The paper is published as a pre-print on: 
-```https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true```
+
+https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
