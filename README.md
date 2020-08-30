@@ -82,7 +82,10 @@ https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sha
 https://data.mendeley.com/datasets/45hs5ht6k3/2
 
 **The paper is published as a pre-print on:**<br /> 
+https://arxiv.org/abs/2005.03990
+
 https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
+
 
 If you find our work useful, you can cite it by:
 ```
