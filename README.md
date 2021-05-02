@@ -5,6 +5,7 @@ Pistachio is a nutritious nut that has many uses in the food industry. Iran is o
 
 In the countries that are famous in pistachio production and exporting, there are companies that pack the picked pistachios from the trees and make them ready for exporting. As there are differences between the price and the demand of the open-mouth and closed-mouth pistachios, it is considerable for these companies to know precisely how much of these two kinds of pistachios exist in each packed package. We have introduced and shared a new dataset of pistachios. Pistachio is known as Pesteh in Iran, and that is why we called our dataset Pesteh-Set. 
 
+source paper: [arxiv.org/abs/2005.03990](https://arxiv.org/abs/2005.03990)</br>
 **The whole dataset can be downloaded at https://www.kaggle.com/mohammadrahimzadeh/pistachios**
 
 <p align="center">
@@ -93,14 +94,15 @@ https://arxiv.org/abs/2005.03990
 https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
 
 
-If you find our work useful, you can cite it by:
+If you find our work useful, please cite it by:
 ```
-@misc{rahimzadeh2020introduction,
-    title={Introduction of a new Dataset and Method for Detecting and Counting the Pistachios based on Deep Learning},
-    author={Mohammad Rahimzadeh and Abolfazl Attar},
-    year={2020},
-    eprint={2005.03990},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@article{rahimzadeh2020detecting,
+  title={Detecting and Counting Pistachios based on Deep Learning},
+  author={Rahimzadeh, Mohammad and Attar, Abolfazl},
+  journal={arXiv preprint arXiv:2005.03990},
+  year={2020}
 }
 ```
+
+You can contact the developer by this email: mr7495@yahoo.com
+
