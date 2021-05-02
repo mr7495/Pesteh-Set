@@ -83,7 +83,9 @@ The [visualization.py](visualization.py) presents the code for plotting the anno
 
 **The Videos of Pesteh-Set is shared on Google Drive and Mendeley:**<br /> 
 https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing<br /> 
-https://data.mendeley.com/datasets/45hs5ht6k3/2
+https://data.mendeley.com/datasets/45hs5ht6k3/4
+
+**Also, the whole dataset can be downloaded at https://www.kaggle.com/mohammadrahimzadeh/pistachios**
 
 **The paper is published as a pre-print on:**<br /> 
 https://arxiv.org/abs/2005.03990
