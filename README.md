@@ -13,6 +13,15 @@ In the countries that are famous in pistachio production and exporting, there ar
 	<em>Pistachios Assortment</em>
 </p>
 
+Pesteh-Set is made of two parts. The first part includes [423 images with ground truth](pesteh_set_images). We sorted the pistachios into two classes: Open-mouth and closed-mouth. The ground truth of the images is a [CSV file](annotation.csv) that consists of the bounding boxes of the two classes of pistachios in the images.
+There are between 1 to 27 pistachios in each image, and 3927 pistachios totally. The second part includes 6 videos with a total length of 167 seconds and 561 moving pistachios.
+
+We have selected some frames of the videos and labeled them with a [self-developed program](Label_maker.py) using OpenCV library on python language. The images of the dataset were resized to 1070 × 600 pixels to save computing costs.
+Some of the images of this dataset are presented in the figure below:
+
+<img src="/images/raw1.jpg" width="30%"> <img src="/images/raw2.jpg" width="30%">
+<img src="/images/raw3.jpg" width="30%">  <img src="/images/raw4.jpg" width="30%">
+
 
 The [videos of the dataset](https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing) have been recorded by a cell-phone camera with 1920 × 1080 pixels resolution, five of these videos are recorded with 60 frames per second(fps) frame rate, and one other is recorded with 30 fps frame rate. The cell-phone was perched on the wall above the line that was transporting the pistachios. This line was designed somehow that the pistachios could roll on it. The reason the pistachios rolling is so important is that the open-mouth pistachios could appear on their backside where they look like closed-mouth pistachios, but the rolling cause them to show their open-mouth side when rolling. Next figure presents a view of how the dataset was recorded, and also the general schematic of our proposed method for remote counting the pistachios.
 
@@ -23,14 +32,7 @@ The [videos of the dataset](https://drive.google.com/drive/folders/1ojq1maRM82o3
 </p>
 
 
-Pesteh-Set is made of two parts. The first part includes [423 images with ground truth](pesteh_set_images). We sorted the pistachios into two classes: Open-mouth and closed-mouth. The ground truth of the images is a [CSV file](annotation.csv) that consists of the bounding boxes of the two classes of pistachios in the images.
-There are between 1 to 27 pistachios in each image, and 3927 pistachios totally. The second part includes 6 videos with a total length of 167 seconds and 561 moving pistachios.
 
-We have selected some frames of the videos and labeled them with a [self-developed program](Label_maker.py) using OpenCV library on python language. The images of the dataset were resized to 1070 × 600 pixels to save computing costs.
-Some of the images of this dataset are presented in the figure below:
-
-<img src="/images/raw1.jpg" width="30%"> <img src="/images/raw2.jpg" width="30%">
-<img src="/images/raw3.jpg" width="30%">  <img src="/images/raw4.jpg" width="30%">
 
 The [self-developed program](Label_maker.py) for labeling the images along all the codes designed for preparing and visualzing the data is avaialbe on this repository. We hope that researchers could use them to make the Pistachio-Dataset larger.
 
