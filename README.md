@@ -100,8 +100,9 @@ If you find our work useful, please cite it by:
 @article{rahimzadeh2020detecting,
   title={Detecting and Counting Pistachios based on Deep Learning},
   author={Rahimzadeh, Mohammad and Attar, Abolfazl},
-  journal={arXiv preprint arXiv:2005.03990},
-  year={2020}
+  journal={Iran Journal of Computer Science},
+  doi = {https://doi.org/10.1007/s42044-021-00090-6},
+  year={2021}
 }
 ```
 
