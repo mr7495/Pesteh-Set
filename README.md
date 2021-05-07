@@ -8,6 +8,7 @@ In the countries that are famous in pistachio production and exporting, there ar
 source paper: [arxiv.org/abs/2005.03990](https://arxiv.org/abs/2005.03990)</br>
 Published paper: [10.1007/s42044-021-00090-6](https://doi.org/10.1007/s42044-021-00090-6)</br>
 **The whole dataset can be downloaded at https://www.kaggle.com/mohammadrahimzadeh/pistachios**
+**The training and counting code is shared at https://github.com/mr7495/Pistachio-Counting**
 
 <p align="center">
 	<img src="images/general_pistachio-1.jpg" alt="photo not available" width="100%" height="70%">
@@ -89,11 +90,10 @@ https://data.mendeley.com/datasets/45hs5ht6k3/4
 
 **Also, the whole dataset can be downloaded at https://www.kaggle.com/mohammadrahimzadeh/pistachios**
 
-**The paper is published as a pre-print on:**<br /> 
+**The paper is published at:**<br /> 
 https://arxiv.org/abs/2005.03990
 
-https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
-
+https://doi.org/10.1007/s42044-021-00090-6
 
 If you find our work useful, please cite it by:
 ```
