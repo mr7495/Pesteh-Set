@@ -7,7 +7,7 @@ In the countries that are famous in pistachio production and exporting, there ar
 
 source paper: [arxiv.org/abs/2005.03990](https://arxiv.org/abs/2005.03990)</br>
 Published paper: [10.1007/s42044-021-00090-6](https://doi.org/10.1007/s42044-021-00090-6)</br>
-**The whole dataset can be downloaded at https://www.kaggle.com/mohammadrahimzadeh/pistachios**
+**The whole dataset can be downloaded at https://www.kaggle.com/mohammadrahimzadeh/pistachios**</br>
 **The training and counting code is shared at https://github.com/mr7495/Pistachio-Counting**
 
 <p align="center">
