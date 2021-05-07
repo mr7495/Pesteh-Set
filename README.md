@@ -6,6 +6,7 @@ Pistachio is a nutritious nut that has many uses in the food industry. Iran is o
 In the countries that are famous in pistachio production and exporting, there are companies that pack the picked pistachios from the trees and make them ready for exporting. As there are differences between the price and the demand of the open-mouth and closed-mouth pistachios, it is considerable for these companies to know precisely how much of these two kinds of pistachios exist in each packed package. We have introduced and shared a new dataset of pistachios. Pistachio is known as Pesteh in Iran, and that is why we called our dataset Pesteh-Set. 
 
 source paper: [arxiv.org/abs/2005.03990](https://arxiv.org/abs/2005.03990)</br>
+Published paper: [10.1007/s42044-021-00090-6](https://doi.org/10.1007/s42044-021-00090-6)</br>
 **The whole dataset can be downloaded at https://www.kaggle.com/mohammadrahimzadeh/pistachios**
 
 <p align="center">
